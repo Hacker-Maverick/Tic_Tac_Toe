@@ -1,0 +1,92 @@
+body{
+    margin: auto;
+    padding:0px;
+    background-color: rgb(238, 252, 131);
+}
+
+nav{
+    margin: 0px;
+    padding: 5px;
+    background-image:linear-gradient(red,rgb(197, 93, 197));
+    
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.navbutton{
+    padding: 5px;
+    margin:.5px;
+}
+
+#navbuttoncontainer{
+    float: right;
+}
+    
+.navbutton:hover{
+    margin:0px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px dotted rgba(0, 0, 0, 0.459);
+    background-image: radial-gradient(rgb(255, 255, 0),rgb(255, 136, 0));
+}
+
+#navcontent{
+    padding: 5px;
+}
+
+#main{
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.player{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+.box{
+    border: 2px solid rgb(255, 0, 0);
+    margin: 0px;
+    width: 12vw;
+    min-width: 50px;
+    max-width: 100px;
+    text-align: center;
+}
+
+#game{
+
+}
+
+.rows{
+    display: flex;
+    margin: 0px;
+    height: 10vh;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+#a1,#a2,#a3{
+    border-top: 0px;
+}
+
+#a7,#a8,#a9{
+    border-bottom: 0px;
+}
+#a3,#a6,#a9{
+    border-right: 0px;
+    margin-right: 25%;
+}
+#a1,#a4,#a7{
+    border-left: 0px;
+    margin-left: 25%;
+}
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover,#a7:hover,#a8:hover,#a9:hover{
+    background-image:radial-gradient(lightblue,lightgreen);
+    cursor: default;
+}
+#win{
+    text-align: center;
+    padding-top: 5vh;
+}
